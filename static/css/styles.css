@@ -1,0 +1,54 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 3em;
+  color: #61dafb;
+  text-shadow: 2px 2px #000;
+  margin-top: 20px;
+}
+
+#board {
+  margin-top: 20px;
+}
+
+#game-board {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+#game-board td {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #444;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#game-board td:hover {
+  background-color: #ddd;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
